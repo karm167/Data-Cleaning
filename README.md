@@ -1,7 +1,7 @@
 ## Data-Cleaning
 This repository contains the following files as prescribed for the submission of the final project for the 
 " Getting and Cleaning Data" course
-1. **"run_analysis.R"**: a detailed R script showing how to get the final (tidy) dataset from the original sets
+1. **"run_analysis.R"**: a detailed R script showing how to get the final (tidy) dataset from the original sets  
     **Download the raw data**
 Follow the link [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Download and unzip the raw data into the working R directory.   
    **Forming a unique Dataset**: We stack the measurements from the training set and the test set into a unique set. We do the same for the subject ID and activity ID variables. We subsequently attach the activity and subject columns to the measurement dataset  
