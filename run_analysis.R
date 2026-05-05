@@ -61,8 +61,8 @@ library(dplyr)
 Final_Set <- Clean_Data %>%
   group_by(SubjectID, ActivityID, ActivityType) %>%
   summarise_all(mean)
+# wriring the file to txt
+library(tidyverse)
+write_tsv(Final_Set, "Final_Set.txt")
 
-# Writing the final set to a txt file
-write.table(Final_Set, "Final_Set.txt", row.names = FALSE)
-
-
+ 
